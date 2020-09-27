@@ -67,11 +67,11 @@ header{
 }
 .project-title{
   font-weight: 600;
-  font-size: 2vw;
+  font-size: 2rem;
   color: #f0f0f0;
 }
 #projects h2{
-  margin: 2vw;
+  margin: 2rem;
   text-decoration: underline;
 }
 .project-link:hover{
