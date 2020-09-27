@@ -82,19 +82,19 @@ header{
 }
 
 #about{
-padding: 8vw 3vw;
-height: 45vw;
+padding: 200px 15px;
+height: 600px;
 color: white;
 text-align: center;
 text-size: 6vw;
 }
 #about h2{
-font-size: 4vw;
+font-size: 4rem;
 font-weight: 600;
-margin-bottom: 3vw;
+margin-bottom: 3rem;
 }
 #about p{
-font-size: 1.5vw;
+font-size: 1.5rem;
 font-weight: 500;
 }
 #collab{
@@ -105,11 +105,11 @@ text-align: center;
 text-size: 6vw;
 }
 #collab h2{
-font-size: 3vw;
+font-size: 3rem;
 font-weight: 600;
 }
 #collab p{
-font-size: 1.5vw;
+font-size: 1.5rem;
 }
 #collab a{
 text-decoration: underline;
