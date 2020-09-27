@@ -8,7 +8,7 @@
 nav a{
   color: white;
   font-weight: 500;
-  font-size: 1.5vw;
+  font-size: 2rem;
 }
 nav button{
 color: white;}
@@ -24,13 +24,13 @@ color: white;}
   color: white;
 }
 #welcome-section h1{
-  font-size: 6vw;
+  font-size: 6rem;
   font-weight: 700;
-  margin-bottom: 3vw;
+  margin-bottom: 3rem;
 }
 #welcome-section p{
-  font-size: 2vw;
-  margin-bottom: 4vw;
+  font-size: 2rem;
+  margin-bottom: 4rem;
 }
 #projects{
   text-align: center;
@@ -45,12 +45,12 @@ header{
   color: white;
   background-color: transparent;
   border: 1px solid #FFF;
-  font-size: 2vw;
+  font-size: 2rem;
 }
 
 .contact-links ul li{
-  padding: 0.5vw;
-  margin-top: 1.5vw;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
 }
 .contact-links ul li a:hover{
   background-color: #874E4C !important;
@@ -67,7 +67,7 @@ header{
 }
 .project-title{
   font-weight: 600;
-  font-size: 1vw;
+  font-size: 2vw;
   color: #f0f0f0;
 }
 #projects h2{
