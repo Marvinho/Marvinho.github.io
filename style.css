@@ -10,14 +10,22 @@ nav a{
   font-weight: 500;
   font-size: 2rem;
 }
+.navbar-brand{
+font-size: 2rem;
+}
+.fa{
+font-size: 3rem;
+}
 nav button{
-color: white;}
+color: white;
+}
 #welcome-section {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background-image: linear-gradient(to right, rgba(55,55,55,0.6), rgba(55,50,55,0.6)), url(images/background.jpg);
+  image-orientation: 0deg;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,7 +38,7 @@ color: white;}
 }
 #welcome-section p{
   font-size: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 #projects{
   text-align: center;
@@ -45,7 +53,7 @@ header{
   color: white;
   background-color: transparent;
   border: 1px solid #FFF;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .contact-links ul li{
@@ -56,11 +64,10 @@ header{
   background-color: #874E4C !important;
 }
 .project-tile{
-  margin: 1vw;
-  padding: 1vw;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  background-color: #32485C;
+  margin: 1rem;
+  padding: 1rem;
   max-height: 100%;
+  width: 100%;
 }
 .project-tile:hover{
   background-color: #874E4C;
@@ -79,6 +86,7 @@ header{
 }
 .project-img{
   max-height: 300px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 #about{
@@ -86,7 +94,7 @@ padding: 200px 15px;
 height: 600px;
 color: white;
 text-align: center;
-text-size: 6vw;
+text-size: 6rem;
 }
 #about h2{
 font-size: 4rem;
@@ -102,7 +110,7 @@ padding: 50px 0px;
 height: 20vw;
 color: white;
 text-align: center;
-text-size: 6vw;
+text-size: 6rem;
 }
 #collab h2{
 font-size: 3rem;
