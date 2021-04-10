@@ -1,3 +1,13 @@
+PATH
+  remote: .
+  specs:
+    jekyll-text-theme (2.2.6)
+      jekyll (>= 3.6, < 5.0)
+      jekyll-feed (~> 0.1)
+      jekyll-paginate (~> 1.1)
+      jekyll-sitemap (~> 1.0)
+      jemoji (~> 0.8)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -220,6 +230,7 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
     racc (1.5.2)
+    rake (10.5.0)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -247,25 +258,20 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2021.1)
-      tzinfo (>= 1.0.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.7-x64-mingw32)
     unicode-display_width (1.7.0)
-    wdm (0.1.1)
     zeitwerk (2.4.2)
 
 PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  github-pages (~> 214)
-  jekyll-feed (~> 0.12)
-  minima (~> 2.5)
-  tzinfo (~> 1.2)
-  tzinfo-data
-  wdm (~> 0.1.1)
+  bundler
+  github-pages
+  jekyll-text-theme!
+  rake (~> 10.0)
 
 BUNDLED WITH
    2.2.16
