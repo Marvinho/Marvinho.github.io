@@ -1,11 +1,9 @@
-{%- if jekyll.environment != 'development' -%}
-  {%- if site.comments.provider == 'disqus' -%}
-    {%- include comments-providers/disqus.html -%}
-  {%- elsif site.comments.provider == 'gitalk' -%}
-    {%- include comments-providers/gitalk.html -%}
-  {%- elsif site.comments.provider == 'valine' -%}
-    {%- include comments-providers/valine.html -%}
-  {%- elsif site.comments.provider == 'custom' -%}
-    {%- include comments-providers/custom.html -%}
-  {%- endif -%}
-{%- endif -%}
+
+<!-- Disqus Comments Start -->
+
+{% if site.disqus-shortname %}
+  <div id="disqus_thread"></div>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}
+
+<!-- Disqus Comments End -->
