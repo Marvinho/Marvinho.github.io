@@ -25,7 +25,7 @@ feature_row2:
 
 ---
 
-
+<!--
 # About me
 - Currently writing my master thesis at TU Braunschweig
 
@@ -35,22 +35,29 @@ feature_row2:
 
 
 ---
-
+-->
 
 # Some of my Projects
-<center><h5> Deep Learning Specialization </h5></center>
-<figure style="width: 400px" class="align-center">
+
+<center><h5> Deep Learning Specialization </h5>
+<a href="https://coursera.org/share/8ff85038b18ee0de81396b163c47c69f" target="_blank">
+<figure style="max-width: 80%" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/cert.png" alt="">
 </figure> 
+</a>
+</center>
 
-
-<center><h5> InformatiCup 2019 </h5></center>
-<figure style="width: 400px" class="align-center">
+<center><h5> InformatiCup 2019 </h5>
+<a href="https://github.com/Marvinho/InformatiCupUndCupper" target="_blank">
+<figure style="max-width: 80%" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/icup.png" alt="">
 </figure> 
-
-
-<center><h5> Advent of Code </h5></center>
-<figure style="width: 400px" class="align-center">
+</a>
+</center>
+<center> <h5>Advent of Code </h5>
+  <a href="https://github.com/Marvinho/Advent-of-Code" target="_blank">
+<figure style="max-width: 80%" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/aoc.png" alt="">
-</figure> 
+</figure>
+</a> 
+</center>

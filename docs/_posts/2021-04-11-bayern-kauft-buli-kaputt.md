@@ -1,4 +1,10 @@
-# FC Bayern München kauft die Bundesliga kaputt!
+---
+title: "FC Bayern München kauft die Bundesliga kaputt!"
+layout: single
+author_profile: true
+
+---
+
 
 ## Vorwort
 
