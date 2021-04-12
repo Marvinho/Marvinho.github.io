@@ -3,19 +3,14 @@
    ========================================================================== */
 
 .masthead {
-  position: fixed;
-  width: 75%;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
   z-index: 20;
 
   &__inner-wrap {
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    padding: 1em;
+    padding: 0.3em;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -68,7 +63,7 @@
   .site-nav {
     margin-left: 0;
 
-    @include breakpoint($small) {
+    @include breakpoint($large) {
       float: right;
     }
   }
