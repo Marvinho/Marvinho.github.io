@@ -6,7 +6,7 @@ header:
   overlay_color: "#FFF"
   overlay_filter: rgba(55,55,55,0.6)
   overlay_image: /assets/images/background.png
-excerpt: "Data Science and programming enthusiast"
+excerpt: "Passionate about Data Science and Soccer"
 
 feature_row:
   - image_path: /assets/images/cert.PNG
