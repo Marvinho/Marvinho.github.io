@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 ## Vorwort
 
-So kommentiert es immer mal wieder jemand, wenn ein Spieler innerhalb der Bundesliga zum FCB wechselt.<!--more--> Aber inwieweit stimmt die These, ist sie nur eine dahingesagte Stammtischfloskel oder lässt sich ein Muster erkennen, welches darauf hindeutet, dass Bayern München vorsätzlich die Konkurrenz schwächt um Alleinherrscher der Bundesliga zu bleiben. Im Folgenden gehe ich dem auf den Grund, indem ich die Spielerzugänge und deren Marktwerte, die der FCB seit der Saison 10/11 getätigt hat, unter die Lupe nehme und mit der Konkurrenz vergleiche. Eine interessanter Artikel dazu von Gerhards J. und Mutz M. "Who wins the championship? Market value and team composition as predictors of success in the top European football leagues." kommt zu folgendem Schluss: 
+So kommentiert es immer mal wieder jemand, wenn ein Spieler innerhalb der Bundesliga zum FCB wechselt.<!--more--> Aber inwieweit stimmt die These, ist sie nur eine dahingesagte Stammtischfloskel oder lässt sich ein Muster erkennen, welches darauf hindeutet, dass Bayern München vorsätzlich die Konkurrenz schwächt, um "Alleinherrscher" der Bundesliga zu bleiben. Im Folgenden gehe ich dem auf den Grund, indem ich die Spielerzugänge und deren Marktwerte, die der FCB seit der Saison 10/11 getätigt hat, unter die Lupe nehme und mit der Konkurrenz vergleiche. Eine interessanter Artikel dazu von Gerhards J. und Mutz M. "Who wins the championship? Market value and team composition as predictors of success in the top European football leagues." kommt zu folgendem Schluss: 
 
 > The analyses show that success in professional football is hugely dependent on the market value of players [...] 
 
