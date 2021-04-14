@@ -69,7 +69,7 @@ Wenn man bedenkt, dass diese zwei Vereine direkte Konkurrenten sind, bedeutet di
 
 ## Fazit
 
-Man kann dem FC Bayern München vorwerfen, gerade weil sie ihren einzigen direkten Konkurrenten, Borussia Dortmund, schon um Einiges durch profitable Transfers geschwächt haben, vorwerfen, ihre "Machtposition" auszunutzen. Um allerdings vom "Kaputtkaufen der Liga" zu sprechen, fehlt meiner Meinung nach, dass sie sich sehr häufig auch bei den anderen Konkurrenten bedienen. Allerdings ist mittlerweile die Lücke wohl schon so groß, dass es bei diesen Vereinen weder Spieler gibt, die dem FCB qualitativ verbessern, noch es nötig wäre, diese zu schwächen. Die "richtigere" Aussage wäre also, "Bayern kauft den direkten Konkurrent kaputt", gerade mit dem Wissen im Hinterkopf, dass der Upamecano Transfer (mit einer Ablöse von 20 Mio. € unter Marktwert) von RB Leipzig, die aktuell am nähesten am FCB dran sind, schon feststeht.
+Man kann dem FC Bayern München vorwerfen - gerade weil sie ihren einzigen direkten Konkurrenten, Borussia Dortmund, schon um Einiges durch profitable Transfers geschwächt haben, dass sie ihre "Machtposition" auszunutzen. Um allerdings vom "Kaputtkaufen der Liga" zu sprechen, fehlt meiner Meinung nach, dass sie sich sehr häufig auch bei den anderen Konkurrenten bedienen. Allerdings ist mittlerweile die Lücke wohl schon so groß, dass es bei diesen Vereinen weder Spieler gibt, die dem FCB qualitativ verbessern, noch es nötig wäre, diese zu schwächen. Die "richtigere" Aussage wäre also, "Bayern kauft den direkten Konkurrent kaputt", gerade mit dem Wissen im Hinterkopf, dass der Upamecano Transfer (mit einer Ablöse von 20 Mio. € unter Marktwert) von RB Leipzig, die aktuell am nähesten am FCB dran sind, schon feststeht.
 
 
 
