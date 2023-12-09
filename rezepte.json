@@ -1,0 +1,14 @@
+{
+  "käse-lauch-suppe": {
+    "Name": "Käse Lauch Suppe",
+    "Zutaten": ["Hack"],
+    "Zubereitungszeit": 30,
+    "Niveau": "einfach",
+    "Hauptzutat": "Suppe",
+    "Quelle": "www.chefkoch.de",
+    "Mahlzeit": "Hauptgericht",
+    "Rezeptkategorie": "Suppe",
+    "Bildquelle": "",
+    "Anlass": ""
+  }
+}
