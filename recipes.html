@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe App</title>
+    <style>
+      /* Add some basic styling */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Recipe App</h1>
+
+    <!-- Filter input -->
+    <label for="filterInput">Filter by ingredient:</label>
+    <input type="text" id="filterInput" oninput="filterRecipes()" placeholder="Type an ingredient" />
+
+    <!-- Display recipes -->
+    <ul id="recipeList"></ul>
+
+    <script>
+      // Sample recipes in JSON format
+      const recipes = [
+        { name: 'Pasta Carbonara', ingredients: ['spaghetti', 'eggs', 'bacon', 'parmesan cheese'] },
+        { name: 'Chicken Stir Fry', ingredients: ['chicken', 'vegetables', 'soy sauce', 'garlic'] },
+        { name: 'Vegetarian Pizza', ingredients: ['pizza dough', 'tomato sauce', 'cheese', 'vegetables'] },
+        // Add more recipes as needed
+      ];
+
+      // Function to display recipes based on the filter
+      function filterRecipes() {
+        const filterInput = document.getElementById('filterInput').value.toLowerCase();
+        const recipeList = document.getElementById('recipeList');
+        recipeList.innerHTML = ''; // Clear previous list
+
+        recipes.forEach((recipe) => {
+          if (recipe.ingredients.some((ingredient) => ingredient.toLowerCase().includes(filterInput))) {
+            // Display the recipe if it contains the filtered ingredient
+            const listItem = document.createElement('li');
+            listItem.textContent = recipe.name;
+            recipeList.appendChild(listItem);
+          }
+        });
+      }
+
+      // Initial display of all recipes
+      filterRecipes();
+    </script>
+  </body>
+</html>

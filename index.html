@@ -1,97 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Arial', sans-serif;
-            background-color: #323339;
-            color: #E0BAD7;
-        }
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  </head>
 
-        header {
-            background-color: #7C3E66;
-            padding: 20px;
-            text-align: center;
-        }
+  <body id="body">
+    <nav>
+      <img class="logo" src="logo.png" alt="Portfolio Logo" />
+      <!-- Replace with your logo URL -->
+      <div class="burger-menu" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="nav-links">
+        <a href="#welcome">Welcome</a>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="blog.html">Blog</a>
+      </div>
+    </nav>
 
-        nav {
-            position: sticky;
-            top: 0;
-            background-color: #323339;
-            padding: 10px 0;
-            text-align: center;
-        }
+    <header id="welcome-section">
+      <div class="container">
+        <h1>Hej, I am Marvin</h1>
+      </div>
+    </header>
 
-        nav a {
-            color: #E0BAD7;
-            padding: 10px 20px;
-            text-decoration: none;
-        }
+    <section id="about" class="container text-left">
+      <h2>About me</h2>
+      <p>
+        Interests: I love every kind of sport - especially soccer, beachvolley and badminton. Traveling, artificial
+        intelligence, music, gaming.
+      </p>
+    </section>
+    <section id="projects">
+      <h2>These are some of my Projects</h2>
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-lg-5 project-tile">
+            <a href="https://coursera.org/share/8ff85038b18ee0de81396b163c47c69f" target="_blank" class="project-link">
+              <img class="img-fluid project-img" src="images/cert.PNG" alt="project" />
+            </a>
+          </div>
+          <div class="col-lg-5 project-tile">
+            <a href="https://github.com/Marvinho/InformatiCupUndCupper" target="_blank" class="project-link">
+              <img class="img-fluid project-img" src="images/icup.png" alt="project" />
+            </a>
+          </div>
+          <div class="col-lg-5 project-tile">
+            <a href="https://github.com/Marvinho/Advent-of-Code" target="_blank" class="project-link">
+              <img class="img-fluid project-img" src="images/aoc.PNG" alt="project" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      function toggleMenu() {
+        const burgerMenu = document.querySelector('.burger-menu');
+        const navLinks = document.querySelector('.nav-links');
 
-        section {
-            padding: 40px;
-        }
-
-        section.welcome {
-            background-color: #61D095;
-        }
-
-        section.about {
-            background-color: #E0BAD7;
-        }
-
-        section.projects {
-            background-color: #61D095;
-        }
-
-        section.blog {
-            background-color: #323339;
-            color: #E0BAD7;
-        }
-
-        footer {
-            background-color: #7C3E66;
-            padding: 20px;
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-
-<header>
-    <h1>Software Engineer & Soccer Player</h1>
-    <p>Welcome to my portfolio!</p>
-</header>
-
-<nav>
-    <a href="#welcome">Welcome</a>
-    <a href="#about">About Me</a>
-    <a href="#projects">Projects</a>
-    <a href="blog.html">Blog</a>
-</nav>
-
-<section id="welcome" class="welcome">
-    <h2>Welcome</h2>
-    <p>This is the welcome section. Add your introductory content here.</p>
-</section>
-
-<section id="about" class="about">
-    <h2>About Me</h2>
-    <p>This is the about me section. Share information about your background, skills, and interests.</p>
-</section>
-
-<section id="projects" class="projects">
-    <h2>Projects</h2>
-    <p>This is the projects section. Showcase some of your notable software engineering projects.</p>
-</section>
-
-<footer>
-    <p>&copy; 2023 Your Name</p>
-</footer>
-
-</body>
+        burgerMenu.classList.toggle('active');
+        navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+      }
+    </script>
+    <footer>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/marvinhooooooo/" target="_blank" rel="noopener noreferrer"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://github.com/Marvinho" target="_blank" rel="noopener noreferrer"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/marvin-s-00997b1a4/" target="_blank" rel="noopener noreferrer"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+      <p>&copy; 2023 Your Name - Portfolio</p>
+    </footer>
+  </body>
 </html>

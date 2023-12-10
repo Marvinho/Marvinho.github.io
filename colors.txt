@@ -1,0 +1,86 @@
+#003844
+#4C9F70
+#F5EFED / #F0EDEE
+#7C3E66
+#323339
+
+- Tailwind
+
+{ 'cinereous': { DEFAULT: '#A68B88', 100: '#221b1a', 200: '#453534', 300: '#67504e', 400: '#896b68', 500: '#a68b88', 600: '#b7a2a0', 700: '#c9b9b7', 800: '#dbd0cf', 900: '#ede8e7' }, 'jet': { DEFAULT: '#312D25', 100: '#0a0907', 200: '#14120f', 300: '#1e1b16', 400: '#28241e', 500: '#312d25', 600: '#625a4a', 700: '#92866e', 800: '#b6ae9e', 900: '#dbd7cf' }, 'dark_moss_green': { DEFAULT: '#2F4A0C', 100: '#0a0f02', 200: '#131e05', 300: '#1d2d07', 400: '#263c0a', 500: '#2f4a0c', 600: '#5e9318', 700: '#8cdb25', 800: '#b2e76d', 900: '#d9f3b6' }, 'isabelline': { DEFAULT: '#FAF6F0', 100: '#493618', 200: '#936c31', 300: '#c99e5d', 400: '#e1caa6', 500: '#faf6f0', 600: '#fbf8f3', 700: '#fcf9f6', 800: '#fdfbf9', 900: '#fefdfc' }, 'caput_mortuum': { DEFAULT: '#4B2528', 100: '#0f0708', 200: '#1e0f10', 300: '#2d1618', 400: '#3c1e20', 500: '#4b2528', 600: '#803f45', 700: '#b05f66', 800: '#ca9499', 900: '#e5cacc' } }
+
+- CSV
+
+A68B88,312D25,2F4A0C,FAF6F0,4B2528
+
+- With #
+
+#A68B88, #312D25, #2F4A0C, #FAF6F0, #4B2528
+
+- Array
+
+["A68B88","312D25","2F4A0C","FAF6F0","4B2528"]
+
+- Object
+
+{"Cinereous":"A68B88","Jet":"312D25","Dark moss green":"2F4A0C","Isabelline":"FAF6F0","Caput mortuum":"4B2528"}
+
+- Extended Array
+
+[{"name":"Cinereous","hex":"A68B88","rgb":[166,139,136],"cmyk":[0,16,18,35],"hsb":[6,18,65],"hsl":[6,14,59],"lab":[60,10,5]},{"name":"Jet","hex":"312D25","rgb":[49,45,37],"cmyk":[0,8,24,81],"hsb":[40,24,19],"hsl":[40,14,17],"lab":[19,0,6]},{"name":"Dark moss green","hex":"2F4A0C","rgb":[47,74,12],"cmyk":[36,0,84,71],"hsb":[86,84,29],"hsl":[86,72,17],"lab":[28,-21,31]},{"name":"Isabelline","hex":"FAF6F0","rgb":[250,246,240],"cmyk":[0,2,4,2],"hsb":[36,4,98],"hsl":[36,50,96],"lab":[97,0,3]},{"name":"Caput mortuum","hex":"4B2528","rgb":[75,37,40],"cmyk":[0,51,47,71],"hsb":[355,51,29],"hsl":[355,34,22],"lab":[20,18,6]}]
+
+- XML
+
+<palette>
+  <color name="Cinereous" hex="A68B88" r="166" g="139" b="136" />
+  <color name="Jet" hex="312D25" r="49" g="45" b="37" />
+  <color name="Dark moss green" hex="2F4A0C" r="47" g="74" b="12" />
+  <color name="Isabelline" hex="FAF6F0" r="250" g="246" b="240" />
+  <color name="Caput mortuum" hex="4B2528" r="75" g="37" b="40" />
+</palette>
+
+/* CSS HEX */
+--reseda-green: #636A4Cff;
+--magenta-haze: #8D4D6Eff;
+--battleship-gray: #84827Bff;
+--dark-moss-green: #2F4A0Cff;
+
+/* CSS HSL */
+--reseda-green: hsla(74, 16%, 36%, 1);
+--magenta-haze: hsla(329, 29%, 43%, 1);
+--battleship-gray: hsla(47, 4%, 50%, 1);
+--dark-moss-green: hsla(86, 72%, 17%, 1);
+
+/* SCSS HEX */
+$reseda-green: #636A4Cff;
+$magenta-haze: #8D4D6Eff;
+$battleship-gray: #84827Bff;
+$dark-moss-green: #2F4A0Cff;
+
+/* SCSS HSL */
+$reseda-green: hsla(74, 16%, 36%, 1);
+$magenta-haze: hsla(329, 29%, 43%, 1);
+$battleship-gray: hsla(47, 4%, 50%, 1);
+$dark-moss-green: hsla(86, 72%, 17%, 1);
+
+/* SCSS RGB */
+$reseda-green: rgba(99, 106, 76, 1);
+$magenta-haze: rgba(141, 77, 110, 1);
+$battleship-gray: rgba(132, 130, 123, 1);
+$dark-moss-green: rgba(47, 74, 12, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #636A4Cff, #8D4D6Eff, #84827Bff, #2F4A0Cff);
+$gradient-right: linear-gradient(90deg, #636A4Cff, #8D4D6Eff, #84827Bff, #2F4A0Cff);
+$gradient-bottom: linear-gradient(180deg, #636A4Cff, #8D4D6Eff, #84827Bff, #2F4A0Cff);
+$gradient-left: linear-gradient(270deg, #636A4Cff, #8D4D6Eff, #84827Bff, #2F4A0Cff);
+$gradient-top-right: linear-gradient(45deg, #636A4Cff, #8D4D6Eff, #84827Bff, #2F4A0Cff);
+$gradient-bottom-right: linear-gradient(135deg, #636A4Cff, #8D4D6Eff, #84827Bff, #2F4A0Cff);
+$gradient-top-left: linear-gradient(225deg, #636A4Cff, #8D4D6Eff, #84827Bff, #2F4A0Cff);
+$gradient-bottom-left: linear-gradient(315deg, #636A4Cff, #8D4D6Eff, #84827Bff, #2F4A0Cff);
+$gradient-radial: radial-gradient(#636A4Cff, #8D4D6Eff, #84827Bff, #2F4A0Cff);
+
+E0BAD7 pink lavender
+61D095 emerald
+61D095 emerald
+61D095 eerie black
+323339 background
