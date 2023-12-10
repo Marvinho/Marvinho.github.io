@@ -1,80 +1,97 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #323339;
+            color: #E0BAD7;
+        }
+
+        header {
+            background-color: #7C3E66;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: #323339;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #E0BAD7;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        section.welcome {
+            background-color: #61D095;
+        }
+
+        section.about {
+            background-color: #E0BAD7;
+        }
+
+        section.projects {
+            background-color: #61D095;
+        }
+
+        section.blog {
+            background-color: #323339;
+            color: #E0BAD7;
+        }
+
+        footer {
+            background-color: #7C3E66;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
 </head>
-
 <body>
-    <div class="wrapper">
-        <header id="welcome-section">
-            <nav class="flex-nav">
-                <ul>
-                    <li>Welcome</li>
-                    <li>About me</li>
-                    <li>Projects</li>
-                    <li>Blog</li>
-                    <li class="nav-icon"><i class="fa fa-github" aria-hidden="true"></i></li>
-                    <li class="nav-icon"><i class="fa fa-instagram" aria-hidden="true"></i></li>
-                    <li class="nav-icon"><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
-                    <li class="nav-icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                    </li>
-                </ul>
-            </nav>
-            <h1 class="welcome-text"> Hej, I am Marvin </h1>
-        </header>
 
-        <section id="about">
-            <h2>About me</h2>
-            <p> Currently working as a Software Developer at
-                <a href="https://www.instagram.com/kind_hoerenundsehen/" target="_blank"><i class="fa fa-instagram"
-                        aria-hidden="true"></i> KIND</a>
-            </p>
-            <p> Computer Science: M.Sc. @ TU Braunschweig and B.Sc. @ TU Dresden</p>
-            <p> Interests: soccer, beachvolley, software development, gaming</p>
-        </section>
-        <section id="projects">
-            <h2> These are some of my Projects </h2>
-            <div class="project-container">
-                <div class="project-tile">
-                    <a href="https://coursera.org/share/8ff85038b18ee0de81396b163c47c69f" target="_blank"
-                        class="project-link">
-                        <div class="project-image">
-                            <img class="project-img" src="images/cert.PNG" alt="project">
-                            <div class="overlay">
-                            <span class="project-title"><i class="fa fa-terminal" aria-hidden="true">
-                        </i> Deep Learning Specialization </span></div>
-                        </div>
-                    </a>
-                </div>
-                <div class="project-tile">
-                    <a href="https://github.com/Marvinho/InformatiCupUndCupper" target="_blank" class="project-link">
-                        <div class="project-image">
-                            <img class="project-img" src="images/icup.png" alt="project">
-                            <div class="overlay">
-                                <div class="project-title"><i class="fa fa-terminal" aria-hidden="true"></i>
-                                    InformatiCup 2019</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="project-tile">
-                    <a href="https://github.com/Marvinho/Advent-of-Code" target="_blank" class="project-link">
-                        <div class="project-image">
-                            <img class="project-img" src="images/aoc.PNG" alt="project">
-                            <div class="overlay">
-                            <span class="project-title"><i class="fa fa-terminal" aria-hidden="true"></i>
-                                Advent of Code</span></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>Blog</h2>
-        </section>
-    </div>
+<header>
+    <h1>Software Engineer & Soccer Player</h1>
+    <p>Welcome to my portfolio!</p>
+</header>
+
+<nav>
+    <a href="#welcome">Welcome</a>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="blog.html">Blog</a>
+</nav>
+
+<section id="welcome" class="welcome">
+    <h2>Welcome</h2>
+    <p>This is the welcome section. Add your introductory content here.</p>
+</section>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>This is the about me section. Share information about your background, skills, and interests.</p>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+    <p>This is the projects section. Showcase some of your notable software engineering projects.</p>
+</section>
+
+<footer>
+    <p>&copy; 2023 Your Name</p>
+</footer>
+
 </body>
-
 </html>
