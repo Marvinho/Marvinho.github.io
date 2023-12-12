@@ -1,7 +1,11 @@
+:root {
+  --byzantinum: #7c3e66;
+  --hookers-green: #638475;
+  --bg-color: #323339;
+}
 body {
   background-color: #323339;
 }
-
 nav {
   position: sticky;
   top: 0;
@@ -33,52 +37,21 @@ nav a:hover {
   background-color: #61d095;
 }
 
-.burger-menu {
-  display: none; /* Hide the burger menu by default */
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.burger-menu div {
-  width: 30px;
-  height: 4px;
-  background-color: #fff;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
 /* For mobile devices */
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   nav {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+    text-align: left;
   }
 
   .logo {
-    margin: 10px 0;
+    margin-left: 20px;
   }
 
   nav a {
-    display: none; /* Hide navigation links by default on small screens */
-  }
-
-  .burger-menu {
-    display: flex; /* Display the burger menu on small screens */
-  }
-
-  .burger-menu.active div:nth-child(1) {
-    transform: rotate(-45deg) translate(-5px, 6px);
-  }
-
-  .burger-menu.active div:nth-child(2) {
-    opacity: 0;
-  }
-
-  .burger-menu.active div:nth-child(3) {
-    transform: rotate(45deg) translate(-5px, -6px);
+    margin: 0 15px;
   }
 }
-
 h2 {
   text-align: center;
 }
