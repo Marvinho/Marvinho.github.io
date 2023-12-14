@@ -7,13 +7,28 @@
 
   <body id="body">
     <nav>
-      <img class="logo" src="logo.png" alt="Portfolio Logo" />
-      <!-- Replace with your logo URL -->
-      <div class="nav-links">
-        <a href="#welcome">Welcome</a>
-        <a href="#about">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="blog.html">Blog</a>
+      <div class="navbar">
+        <div class="navbar-logo">
+          <img src="logo.png" alt="Logo" width="40" height="40" />
+          My Logo
+        </div>
+        <div class="navbar-links">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="navbar-burger" onclick="toggleNavbarMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="navbar-menu" id="navbar-menu">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </div>
       </div>
     </nav>
 
@@ -53,12 +68,9 @@
       </div>
     </section>
     <script>
-      function toggleMenu() {
-        const burgerMenu = document.querySelector('.burger-menu');
-        const navLinks = document.querySelector('.nav-links');
-
-        burgerMenu.classList.toggle('active');
-        navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+      function toggleNavbarMenu() {
+        var navbarMenu = document.getElementById('navbar-menu');
+        navbarMenu.classList.toggle('show');
       }
     </script>
     <footer>
